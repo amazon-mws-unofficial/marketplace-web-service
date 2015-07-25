@@ -20,7 +20,7 @@
  *  @see MarketplaceWebService_Model
  */
 require_once (dirname(__FILE__) . '/../Model.php');
-require_once ('MarketplaceWebService/Model/ContentType.php');
+require_once (dirname(__FILE__) . '/Model/ContentType.php');
 
 
 /**
