@@ -42,7 +42,7 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
 
   /** @var array */
   private  $config = array ('ServiceURL' => null,
-                            'UserAgent' => 'PHP Client Library/2014-09-30 (Language=PHP5)',
+                            'UserAgent' => 'PHP Client Library/2015-06-18 (Language=PHP5)',
                             'SignatureVersion' => 2,
                             'SignatureMethod' => 'HmacSHA256',
                             'ProxyHost' => null,
@@ -54,7 +54,7 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
 
   const REQUEST_TYPE = "POST";
 
-  const MWS_CLIENT_VERSION = '2014-09-30';
+  const MWS_CLIENT_VERSION = '2015-06-18';
   
   private $defaultHeaders = array();
 
